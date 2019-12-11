@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+footer {
+    display: block;
+}
+
+.jumbotron {
+    background: url("../images/pilots.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 24em;
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.navbar {
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+
+.navbar-color {
+    background-color: #ce954b;
+    background-image: linear-gradient(white, #ce954b 75%);
+}
+
+.canvas-background {
+    background: url("../images/flightbg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.monoton-font {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.roboto-font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: green;
+}
+
+.olive {
+    color: #bab86c;
+}
+
+.orange {
+    color: #ce954b;
+}
+
+.center {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.border-radius {
+    border-radius: 30px;
+
+}
+
+.card-body {
+    padding: 3rem;
+}
+
+.card {
+    border: solid;
+    border-color: #ce954b;
+    border-radius: 0;
+    opacity: .9;
+}
+
+.nav-link:hover {
+    color: purple;
+}
+
+.iconic:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+/*project 1 background image 
+*/
+.project1bg {
+    background: url("../images/wolfiesflowers.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+/*Blurs project 1 bg image when hovered 
+*/
+.project1bg:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.project2bg {
+    background: url("../images/anEllipse.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+.project2bg:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.project3bg {
+    background: url("../images/twoHumans.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+.project3bg:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.project4bg {
+    background: url("../images/randomBasketballUpdate.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+.project4bg:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-resume {
+    text-align: center;
+}
+
+.img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin: auto auto 0;
+    border: 0.5rem solid #bab86c;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #ce954b;
+}
+
+footer {
+    margin: 0;
+    border-top: solid;
+    border-top-color: black;
+    background-color: #ce954b;
+    background-image: linear-gradient(white, #ce954b 75%);
+    padding-bottom: 15px;
+}
+
+/* Large View
+ */
+@media (min-width: 992px) {
+    #sideNav {
+        border-right: solid;
+        border-right-color: black;
+        border-bottom: none;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 110vh;
+    }
+
+    #sideNav .navbar-brand {
+        display: flex;
+        position: relative;
+        left: 10px;
+        padding: 0.5rem;
+    }
+
+    #sideNav iframe {
+        display: flex;
+        position: relative;
+        bottom: 120px;
+    }
+
+    #sideNav .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        margin: auto auto 0;
+        border: 0.5rem solid #bab86c;
+    }
+
+    #sideNav .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+
+    .coursework-1 {
+        position: relative;
+        top: 20px;
+    }
+
+    .coursework-2 {
+        position: relative;
+        top: 40px;
+    }
+
+    .container-fluid {
+        padding-left: 300px;
+    }
+
+    footer {
+        padding-left: 300px;
+    }
+
+    .iconic-3 {
+        position: relative;
+        bottom: 115px;
+        right: 15px;
+    }
+
+    .intro {
+        position: relative;
+        top: 150px;
+    }
+}
+
+/*Tablet View */
+@media only screen and (max-width: 756px) {
+    nav {
+        float: none;
+        width: auto;
+        height: 150px;
+        padding-top: 0.01em;
+        padding-bottom: 0.01em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-style: solid;
+        border-color: black;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        width: 90px;
+        align-content: left;
+    }
+
+    nav ul {
+        padding: 0;
+        position: relative;
+        top: 30px;
+    }
+}
+
+/*Smartphone View */
+@media only all and (max-width: 576px) {
+    .jumbotron {
+        display: none;
+    }
+
+    .profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+        height: 220px;
+        padding-top: 0.01em;
+        padding-bottom: 0.01em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-style: solid;
+        border-color: black;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        width: 80px;
+        align-content: center;
+    }
+
+    nav ul {
+        padding: 0;
+        position: relative;
+        top: 20px;
+    }
+
+    .img-profile {
+        margin: 0;
+        position: relative;
+        top: 10px;
+    }
+
+    .navbar-brand {
+        margin: 0;
+        position: relative;
+        right: 30px;
+    }
+
+    iframe {
+        margin: 0;
+        position: relative;
+        left: 78px
+    }
+
+}
